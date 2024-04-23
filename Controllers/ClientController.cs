@@ -77,7 +77,7 @@ namespace Proyecto____Examen_Final.Controllers
         }
 
     
-        private bool ValidateClient(int clientId)
+        private bool ValidateClient(string clientId)
         {
           
             using (MySqlConnection connection = ConfigDB.GetConnection()) 
