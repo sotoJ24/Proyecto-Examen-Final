@@ -76,7 +76,7 @@ namespace Proyecto____Examen_Final.Controllers
             }
         }
 
-    
+    //clientId must be int
         private bool ValidateClient(int clientId)
         {
           
