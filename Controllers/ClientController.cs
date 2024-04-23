@@ -5,7 +5,7 @@ using Proyecto____Examen_Final.Models;
 namespace Proyecto____Examen_Final.Controllers
 {
     [Route("api/[controller]/[action]")]
-    [ApiController]
+    [ApiController] 
     public class ClientController: ControllerBase
     {
         [HttpGet]
