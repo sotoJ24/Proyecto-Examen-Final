@@ -34,6 +34,7 @@ namespace Proyecto____Examen_Final.Controllers
                                     ClientLastName = reader["ClientLastName"].ToString(),
                                     Address = reader["Address"].ToString(),
                                     PhoneNumber = reader["PhoneNumber"].ToString(),
+                                    // Email needs to be change .ToString()
                                     Email = reader["Email"].ToString(),
                                     ClientKey = reader["ClientKey"].ToString()
                                 };
