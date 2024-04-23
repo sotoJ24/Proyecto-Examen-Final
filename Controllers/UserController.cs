@@ -42,7 +42,7 @@ namespace Proyecto____Examen_Final.Controllers
         }
 
         // Method to validate session and return SessionId
-        private int ValidateSession(int session)
+        private int ValidateSession(string session)
         {
             try
             {
